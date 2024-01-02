@@ -54,4 +54,9 @@ public class Game
     {
         return Red >= MaxRed && Green >= MaxGreen && Blue >= MaxBlue;
     }
+
+    public int Power
+    {
+        get { return MaxRed * MaxGreen * MaxBlue; }
+    }
 }

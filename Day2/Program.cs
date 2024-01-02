@@ -30,5 +30,9 @@ Console.WriteLine(sumOfIdsOfPossibleGames);
 //    Console.WriteLine("R=" + game.MaxRed + ", G=" + game.MaxGreen + ", B=" + game.MaxBlue + " " + game.isPossible(12,13,14));
 //}
 
+//SECOND SECTION
+int thePower = games.Sum(x => x.Power);
+
+Console.WriteLine(thePower);
 
 Console.ReadLine();
